@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('image/abstract-dark-background-with-flowing-colouful-waves.jpg');
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.container{
+    max-width: 80vw;
+    font-family:'Ubuntu', sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 70px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    color: white;
+}
+.left{
+    width: 50%;
+}
+.section1{
+    max-height: 100vh;
+    color: rgb(238, 23, 238);
+}
+.section1 h1{
+    color: rgb(242, 205, 244);
+    font-size: 4rem;
+}
+.section1 h1 p{
+    font-size: 18px;
+}
+.right .dance{
+    width: 430px;
+    margin-left: 120px;
+}
+.heading{
+    font-size: 1.3rem;
+}
+.section2{
+    padding: 72px;
+}
+.section2 h1{
+    font-size: 3rem;
+    color: rgb(242, 205, 244);
+    padding: 45px;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(230, 167, 228);
+    border-radius: 8px;
+    text-align: center;
+    background-color: #1a4abd45;
+}
+.box h2{
+    font-size: 26px;
+    padding: 15px 0px;
+    color: white;
+}
+.box li img{
+    width: 15vw;
+    height: 18vw;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.btn:hover{
+      background-color:rgb(242, 205, 244); ;
+      color:rgb(238, 23, 238); 
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+.section3{
+    padding: 72px;
+}
+.section3 h1{
+    font-size: 3rem;
+    color: rgb(242, 205, 244);
+    padding-bottom: 45px;
+}
+.section3 .input1{
+    padding-bottom: 23px;
+    border-radius: 8px;
+}
+.section3 .input1 input{
+    padding: 10px 170px;
+    background-color: #6c0f52a1;
+    color: white;
+    font-weight: 900;
+}
+
+footer{
+    text-align: center;
+    padding: 23px;
+    color: rgb(239, 231, 246);
+    font-weight: bolder;
+}
